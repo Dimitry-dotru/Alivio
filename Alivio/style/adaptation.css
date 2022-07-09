@@ -1,0 +1,78 @@
+@media only screen and (max-width: 576px) {
+    .logo {
+        position: absolute;
+        top: 4px;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+
+    nav .container {
+        margin-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .btn-trial {
+        min-width: 70px;
+    } 
+
+    /*! First screen */
+    .first-screen {
+        min-height: calc(100vh - 76px);
+    }
+
+    .first-screen-title {
+        font-size: 47px;
+        margin-bottom: 20px;
+    }
+
+    .first-screen-subtitle {
+        font-size: 18px;
+        margin-bottom: 37px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        min-height: 65px;
+    }
+    
+    .btn-alivio {
+        font-size: 13px;
+    }
+
+    .nav-items {
+        font-size: 13px;
+        min-width: 275px;
+        max-width: 270px;
+    }
+    
+    .account {
+        max-width: 200px;
+    }
+    
+    .sign-in {
+        font-size: 13px;
+        min-width: 40px;
+    }
+    
+    .btn-trial {
+        max-width: 133px;
+        min-height: 35px;
+    }
+
+    /*! How it works */
+    .description {
+        flex-wrap: wrap;
+    }
+
+    .steps {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .steps .steps-element {
+        margin-top: 100px;
+    }
+}
+
